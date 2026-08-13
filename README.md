@@ -109,11 +109,21 @@ All results are saved to `outputs/`:
 | `misclassified/` | Misclassified test samples |
 | `correct_predictions/` | High-confidence correct predictions |
 
+## OMNet-V3: Magnification-Aware Adaptive Fusion & Hierarchical Classification
+
+`OMNet_BreakHis_V3.ipynb` implements the complete research proposed model addressing key gaps identified across current literature:
+
+- **Backbones**: EfficientNet-B0 (1280-d local features) + ViT-Tiny (192-d global context features).
+- **Magnification-Aware Adaptive Fusion (MAF)**: A learned magnification-conditioned gating mechanism ($\alpha \in (0, 1)$) that dynamically weights local vs. global feature maps depending on the slide magnification (40×, 100×, 200×, 400×).
+- **Hierarchical Classification**: Dual-head output for binary (Benign/Malignant) and 8-subtype classification trained with a multi-task loss function ($L_{total} = 0.3 L_{binary} + 0.6 L_{subtype} + 0.1 L_{consistency}$).
+- **Zero-Data-Leakage Validation**: Stratified 5-Fold GroupKFold cross-validation at the **patient level** ensures images from the same slide/patient are never shared across train, val, and test splits.
+- **Stain Robustness**: Online Macenko-based stain matrix perturbation ($p=0.5$) applied during training for color invariant feature extraction.
+
 ## Roadmap
 
-- [x] OMNet-V1: Baseline custom CNN
-- [ ] OMNet-V2: Multi-scale CNN with spatial attention
-- [ ] Vision Transformer backbone
+- [x] OMNet-V1: Baseline custom CNN (trained from scratch)
+- [x] OMNet-V2: Transfer-learning backbones (EfficientNet-B0 + ViT-B/16) with ensembling & cross-validation
+- [x] OMNet-V3: Magnification-Aware CNN-ViT Fusion with Hierarchical Classification & Patient-Disjoint Cross-Validation
 - [ ] Deep Metric Learning integration
 - [ ] Proxy Anchor Loss training
 
