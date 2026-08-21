@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python -c ' *)",
-      "Bash(python -c \"import torch, torchvision; print\\(torch.__version__, torchvision.__version__\\)\")",
-      "Bash(python \"C:\\\\Users\\\\SOURISH\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--OMNet\\\\2e9c23b7-fd6c-4742-bcf5-5644a49d4b2a\\\\scratchpad\\\\build_nb.py\")"
-    ]
-  }
-}
