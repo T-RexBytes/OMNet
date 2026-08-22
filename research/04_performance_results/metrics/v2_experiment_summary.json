@@ -1,0 +1,115 @@
+{
+  "timestamp": "2026-08-15T07:57:29.841925",
+  "config": {
+    "data": {
+      "dataset_id": "trexbytes/breakhislink",
+      "magnification": "200X",
+      "input_size": 224,
+      "batch_size": 16,
+      "num_workers": 0,
+      "pin_memory": true
+    },
+    "model": {
+      "backbones": [
+        "efficientnet_b0",
+        "vit_b_16"
+      ],
+      "num_classes": 2,
+      "embedding_dim": 256,
+      "dropout": 0.4,
+      "unfreeze_last_n_blocks": 2
+    },
+    "cv": {
+      "n_folds": 5,
+      "epochs_per_fold": 6
+    },
+    "final": {
+      "phase1_epochs": 3,
+      "phase2_epochs": 12,
+      "early_stopping_patience": 4
+    },
+    "optim": {
+      "lr_head": 0.001,
+      "lr_backbone": 1e-05,
+      "weight_decay": 0.0001,
+      "mixed_precision": true
+    },
+    "loss": {
+      "name": "cross_entropy",
+      "focal_gamma": 2.0,
+      "label_smoothing": 0.05,
+      "use_oversampling": true
+    },
+    "normalization": "imagenet",
+    "seed": 42,
+    "smoke_test": false
+  },
+  "device": "cuda",
+  "dataset": {
+    "cv_pool_size": 1733,
+    "test_size": 280,
+    "class_names": [
+      "benign",
+      "malignant"
+    ]
+  },
+  "cross_validation_summary": [
+    {
+      "backbone": "efficientnet_b0",
+      "mean_val_acc": 0.8477,
+      "std_val_acc": 0.0244,
+      "mean_val_auc": 0.9754,
+      "std_val_auc": 0.0042,
+      "mean_val_f1": 0.8774,
+      "std_val_f1": 0.0228
+    },
+    {
+      "backbone": "vit_b_16",
+      "mean_val_acc": 0.94,
+      "std_val_acc": 0.0133,
+      "mean_val_auc": 0.9915,
+      "std_val_auc": 0.0027,
+      "mean_val_f1": 0.9549,
+      "std_val_f1": 0.0103
+    }
+  ],
+  "test_metrics": {
+    "efficientnet_b0": {
+      "accuracy": 0.8178571428571428,
+      "precision": 0.8193832599118943,
+      "recall": 0.9489795918367347,
+      "f1": 0.8794326241134752,
+      "specificity": 0.5119047619047619,
+      "sensitivity": 0.9489795918367347,
+      "roc_auc": 0.8712342079689018,
+      "pr_auc": 0.9355932688075398,
+      "balanced_accuracy": 0.7304421768707483,
+      "mcc": 0.539148970308204
+    },
+    "vit_b_16": {
+      "accuracy": 0.8428571428571429,
+      "precision": 0.8304347826086956,
+      "recall": 0.9744897959183674,
+      "f1": 0.8967136150234741,
+      "specificity": 0.5357142857142857,
+      "sensitivity": 0.9744897959183674,
+      "roc_auc": 0.8998420796890185,
+      "pr_auc": 0.9488444653557142,
+      "balanced_accuracy": 0.7551020408163265,
+      "mcc": 0.6104676956673597
+    },
+    "ensemble": {
+      "accuracy": 0.8428571428571429,
+      "precision": 0.8362831858407079,
+      "recall": 0.9642857142857143,
+      "f1": 0.8957345971563981,
+      "specificity": 0.5595238095238095,
+      "sensitivity": 0.9642857142857143,
+      "roc_auc": 0.8972910592808551,
+      "pr_auc": 0.9536909089007616,
+      "balanced_accuracy": 0.7619047619047619,
+      "mcc": 0.6084010706575322
+    }
+  },
+  "best_model": "vit_b_16"
+}
