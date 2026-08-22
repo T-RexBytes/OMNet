@@ -1,8 +1,0 @@
-============================================================
-  Fusion Gate (Alpha) Distribution by Magnification
-============================================================
-   40X: mean alpha = 0.6850 +/- 0.1301 (CNN vs ViT balance)
-  100X: mean alpha = 0.5991 +/- 0.1283 (CNN vs ViT balance)
-  200X: mean alpha = 0.5258 +/- 0.1449 (CNN vs ViT balance)
-  400X: mean alpha = 0.4701 +/- 0.1459 (CNN vs ViT balance)
-============================================================
