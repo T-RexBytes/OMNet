@@ -1,0 +1,133 @@
+{
+  "timestamp": "2026-08-21T18:13:22.512087",
+  "config": {
+    "dataset_id": "saikatd1998/dataset",
+    "output_dir": "/home/saviour/00_Workspace/Projects/gnit/OMNet/OMNet/output_v3",
+    "image_size": 224,
+    "batch_size": 16,
+    "num_workers": 0,
+    "n_splits": 5,
+    "magnification_levels": [
+      40,
+      100,
+      200,
+      400
+    ],
+    "binary_classes": [
+      "benign",
+      "malignant"
+    ],
+    "subtype_order": [
+      "A",
+      "F",
+      "PT",
+      "TA",
+      "DC",
+      "LC",
+      "MC",
+      "PC"
+    ],
+    "subtype_to_index": {
+      "A": 0,
+      "F": 1,
+      "PT": 2,
+      "TA": 3,
+      "DC": 4,
+      "LC": 5,
+      "MC": 6,
+      "PC": 7
+    },
+    "binary_mapping": {
+      "A": 0,
+      "F": 0,
+      "PT": 0,
+      "TA": 0,
+      "DC": 1,
+      "LC": 1,
+      "MC": 1,
+      "PC": 1
+    },
+    "train_resize": 256,
+    "train_crop": 224,
+    "val_resize": 256,
+    "val_crop": 224,
+    "stain_aug_prob": 0.5,
+    "fusion_dim": 256,
+    "magnification_embedding_dim": 64,
+    "dropout": 0.3,
+    "cnn_backbone": "efficientnet_b0",
+    "vit_backbone": "vit_tiny_patch16_224",
+    "max_epochs": 30,
+    "warmup_epochs": 5,
+    "early_stopping_patience": 8,
+    "base_lr": 1e-05,
+    "head_lr": 0.0001,
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 1.0,
+    "amp_enabled": false,
+    "loss_weights": {
+      "binary": 0.3,
+      "subtype": 0.6,
+      "consistency": 0.1
+    },
+    "seed": 42,
+    "smoke_test": false
+  },
+  "aggregated_results": {
+    "binary_accuracy": {
+      "mean": 0.8382355481965158,
+      "std": 0.040398854477292655,
+      "min": 0.7956298200514139,
+      "max": 0.9097449313276651
+    },
+    "binary_macro_f1": {
+      "mean": 0.8123756532081264,
+      "std": 0.05135936121552505,
+      "min": 0.7613123939960522,
+      "max": 0.8940178409981314
+    },
+    "binary_balanced_accuracy": {
+      "mean": 0.8237375112458254,
+      "std": 0.04379117969628906,
+      "min": 0.7648169482846903,
+      "max": 0.8807442895857529
+    },
+    "binary_mcc": {
+      "mean": 0.6363588333823683,
+      "std": 0.10179704396667263,
+      "min": 0.546790926065065,
+      "max": 0.7928431338229389
+    },
+    "subtype_accuracy": {
+      "mean": 0.4285627181527628,
+      "std": 0.046949547622984256,
+      "min": 0.35605170387779084,
+      "max": 0.47678221059516024
+    },
+    "subtype_macro_f1": {
+      "mean": 0.25629386668039994,
+      "std": 0.05034220914035952,
+      "min": 0.18186476964851261,
+      "max": 0.3027741902712221
+    },
+    "subtype_weighted_f1": {
+      "mean": 0.4202048282318316,
+      "std": 0.054046084000605614,
+      "min": 0.3550865305463438,
+      "max": 0.48437904750588157
+    },
+    "subtype_balanced_accuracy": {
+      "mean": 0.3050170865859913,
+      "std": 0.05801555213200043,
+      "min": 0.23081430264296945,
+      "max": 0.3747586781008368
+    },
+    "subtype_mcc": {
+      "mean": 0.25648910391295965,
+      "std": 0.05700753956009719,
+      "min": 0.17262756753760392,
+      "max": 0.3226986008254814
+    }
+  },
+  "folds_completed": 5
+}
