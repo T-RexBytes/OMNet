@@ -1,0 +1,10 @@
+Property,OMNet-V2 (EfficientNet-B0),OMNet-V2 (ViT-B/16),OMNet-V2 (Ensemble),OMNet-V3 (Dual-Branch MAF)
+Model Type,Single CNN Backbone,Single Transformer Backbone,Late Soft-Voting Ensemble,End-to-End Hybrid Fusion
+Backbones Used,EfficientNet-B0,ViT-B/16,EfficientNet-B0 + ViT-B/16,EfficientNet-B0 + ViT-Tiny/16
+Backbone Feature Dim,1280,768,"1280, 768","1280 (CNN), 192 (ViT)"
+Shared Latent Dim,256,256,256,256
+Scale Conditioning,None,None,None,Learnable Embedding (64-d; 40X-400X)
+Fusion Mechanism,None,None,Post-Hoc Probability Average,Magnification-Aware Adaptive Fusion (MAF)
+Output Tasks,Binary (2-Class),Binary (2-Class),Binary (2-Class),Multi-Task: Binary (2-Cls) + Subtype (8-Cls)
+Loss Function,Label-Smoothed CE / Focal,Label-Smoothed CE / Focal,Post-Hoc Ensembling,Hierarchical Loss + KL Consistency
+Training Protocol,2-Phase Progressive (3+12 eps),2-Phase Progressive (3+12 eps),Trained Independently,End-to-End 5-Fold Stratified Group CV

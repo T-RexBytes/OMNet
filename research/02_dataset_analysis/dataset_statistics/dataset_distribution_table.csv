@@ -1,0 +1,10 @@
+Subtype Code,Histological Subtype,Super-Class,Binary Label,Subtype Index,40X Count,100X Count,200X Count,400X Count,Total Images,Patient Count
+A,Adenosis,Benign,0,0,114,113,111,106,444,4
+F,Fibroadenoma,Benign,0,1,253,260,253,248,1014,10
+PT,Phyllodes Tumor,Benign,0,2,109,121,121,102,453,3
+TA,Tubular Adenoma,Benign,0,3,149,150,138,132,569,7
+DC,Ductal Carcinoma,Malignant,1,4,864,903,883,801,3451,38
+LC,Lobular Carcinoma,Malignant,1,5,156,170,156,144,626,5
+MC,Mucinous Carcinoma,Malignant,1,6,205,222,211,154,792,9
+PC,Papillary Carcinoma,Malignant,1,7,145,142,140,133,560,6
+Total,All 8 Subtypes,--,--,--,1995,2081,2013,1820,7909,82
