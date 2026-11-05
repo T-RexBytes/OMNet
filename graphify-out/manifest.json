@@ -1,0 +1,674 @@
+{
+  "research/04_performance_results/metrics/v2_experiment_summary.json": {
+    "mtime": 1787433505.1754837,
+    "seen": 1793897172.4088185,
+    "ast_hash": "6be2fc58c093e46f64e56e9564733324",
+    "semantic_hash": ""
+  },
+  "research/04_performance_results/metrics/v3_local_aggregated_results.json": {
+    "mtime": 1787433505.1776564,
+    "seen": 1793897172.4088578,
+    "ast_hash": "a7acde95b5fd3a48153b3766585cf902",
+    "semantic_hash": ""
+  },
+  "research/04_performance_results/metrics/v3_local_experiment_config.json": {
+    "mtime": 1787433505.1776564,
+    "seen": 1793897172.4088616,
+    "ast_hash": "ebc5c29e944a342eab9e57a389c11671",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_local_out/aggregated_results.json": {
+    "mtime": 1787433505.232224,
+    "seen": 1793897172.408864,
+    "ast_hash": "a7acde95b5fd3a48153b3766585cf902",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_local_out/experiment_config.json": {
+    "mtime": 1787433505.239247,
+    "seen": 1793897172.4088662,
+    "ast_hash": "ebc5c29e944a342eab9e57a389c11671",
+    "semantic_hash": ""
+  },
+  "result_OMNet/v2_out/experiment_summary.json": {
+    "mtime": 1787433505.270368,
+    "seen": 1793897172.4088676,
+    "ast_hash": "6be2fc58c093e46f64e56e9564733324",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1787433505.0777607,
+    "seen": 1793897172.408869,
+    "ast_hash": "52f43e171a17828acb2354c8785b5a6a",
+    "semantic_hash": ""
+  },
+  "docs/FINAL_IMPLEMENTATION_SPEC_V4.md": {
+    "mtime": 1787433505.078834,
+    "seen": 1793897172.4088705,
+    "ast_hash": "3709f0e1a2a83d48df7bddfb7e4c4f5c",
+    "semantic_hash": ""
+  },
+  "docs/OMNet-V3_Final_Paper_Master_Checklist.md": {
+    "mtime": 1787433505.078834,
+    "seen": 1793897172.408872,
+    "ast_hash": "2f27507643fe2575231cc26729cdbb69",
+    "semantic_hash": ""
+  },
+  "docs/OMNet_RX_9060XT_ROCm_Model_Specification.md": {
+    "mtime": 1787433505.0798438,
+    "seen": 1793897172.4088733,
+    "ast_hash": "96f306e6e909a11e7eae5a95a4626719",
+    "semantic_hash": ""
+  },
+  "docs/message.md": {
+    "mtime": 1787433505.0798438,
+    "seen": 1793897172.408875,
+    "ast_hash": "2695637d751af5991961410b7e1a80e7",
+    "semantic_hash": ""
+  },
+  "docs/message.txt": {
+    "mtime": 1787433505.0813103,
+    "seen": 1793897172.408877,
+    "ast_hash": "2695637d751af5991961410b7e1a80e7",
+    "semantic_hash": ""
+  },
+  "docs/process_flow.md": {
+    "mtime": 1785961409.1850429,
+    "seen": 1793897172.408878,
+    "ast_hash": "80cd00e298fb5f3b5b03d1815f9910d1",
+    "semantic_hash": ""
+  },
+  "docs/process_flow_v2.md": {
+    "mtime": 1787433505.083359,
+    "seen": 1793897172.4088795,
+    "ast_hash": "54c7672173720cc8e04b865482a18af1",
+    "semantic_hash": ""
+  },
+  "docs/process_flow_v3.md": {
+    "mtime": 1787433505.0848725,
+    "seen": 1793897172.408881,
+    "ast_hash": "77d1764435a3b79358c0ab12779d6745",
+    "semantic_hash": ""
+  },
+  "models/baseline/plan/baseline_1_densenet201_plan.md": {
+    "mtime": 1787433505.154032,
+    "seen": 1793897172.4088824,
+    "ast_hash": "e8d711b6d282d73fdc6e0d01f42e7e28",
+    "semantic_hash": ""
+  },
+  "models/baseline/plan/baseline_2_vit_b16_plan.md": {
+    "mtime": 1787433505.154032,
+    "seen": 1793897172.408884,
+    "ast_hash": "8455d30dccc04e02cbf7543308fcb5fe",
+    "semantic_hash": ""
+  },
+  "models/baseline/plan/baseline_3_fusion_plan.md": {
+    "mtime": 1787433505.1550312,
+    "seen": 1793897172.4088852,
+    "ast_hash": "27c803e0f6aebb1d99437e26b3b5ca91",
+    "semantic_hash": ""
+  },
+  "models/baseline/plan/baseline_final_model_plan.md": {
+    "mtime": 1787433505.1550312,
+    "seen": 1793897172.4088862,
+    "ast_hash": "74ad9cb6e2d592658733e997fa88fe71",
+    "semantic_hash": ""
+  },
+  "models/baseline/plan/baseline_prefinal_model_plan.md": {
+    "mtime": 1787433505.1560364,
+    "seen": 1793897172.4088879,
+    "ast_hash": "99e6f8638cad12ce884161fe3d8aa515",
+    "semantic_hash": ""
+  },
+  "models/info_V2/architecture_V2.md": {
+    "mtime": 1787433505.1560364,
+    "seen": 1793897172.408889,
+    "ast_hash": "e013c01a03ef49c525e3eff8558fa57a",
+    "semantic_hash": ""
+  },
+  "models/info_V2/dataset_V2.md": {
+    "mtime": 1787433505.1571202,
+    "seen": 1793897172.40889,
+    "ast_hash": "1b959612ab8b7e86d7634debc0304267",
+    "semantic_hash": ""
+  },
+  "models/info_V2/knowledge_V2.md": {
+    "mtime": 1787433505.1571202,
+    "seen": 1793897172.4088924,
+    "ast_hash": "e8d438ef3a0365afc3c10625ba49185d",
+    "semantic_hash": ""
+  },
+  "models/info_V2/output_V2.md": {
+    "mtime": 1787433505.1581259,
+    "seen": 1793897172.4088936,
+    "ast_hash": "22fe3d1a94449288487598cbe1a22988",
+    "semantic_hash": ""
+  },
+  "models/info_V3/architecture_V3.md": {
+    "mtime": 1787433505.1581259,
+    "seen": 1793897172.4088953,
+    "ast_hash": "2bc0a3dff52703cb4dd0510ba7ee12c4",
+    "semantic_hash": ""
+  },
+  "models/info_V3/dataset_V3.md": {
+    "mtime": 1787433505.159617,
+    "seen": 1793897172.4088964,
+    "ast_hash": "978ed63425c8954c3c2f806b86c5e7f0",
+    "semantic_hash": ""
+  },
+  "models/info_V3/knowledge_V3.md": {
+    "mtime": 1787433505.159617,
+    "seen": 1793897172.4088979,
+    "ast_hash": "3ec8a655110bb1c4d5dec93a0db2dc37",
+    "semantic_hash": ""
+  },
+  "models/info_V3/output_V3.md": {
+    "mtime": 1787433505.1606283,
+    "seen": 1793897172.4088988,
+    "ast_hash": "378d447f9957694dcabad16811447193",
+    "semantic_hash": ""
+  },
+  "models/info_V3_local/architecture_V3.md": {
+    "mtime": 1787433505.1606283,
+    "seen": 1793897172.4089,
+    "ast_hash": "88247ef1197f203c95ca5cf442a096ca",
+    "semantic_hash": ""
+  },
+  "models/info_V3_local/dataset_V3.md": {
+    "mtime": 1787433505.1616244,
+    "seen": 1793897172.4089015,
+    "ast_hash": "28f9e5ec187449261a27cc8d0c083ada",
+    "semantic_hash": ""
+  },
+  "models/info_V3_local/output_V3.md": {
+    "mtime": 1787433505.1616244,
+    "seen": 1793897172.408903,
+    "ast_hash": "bec1ed5c46e588620725a15dfea782de",
+    "semantic_hash": ""
+  },
+  "models/info_V4/architecture_V4.md": {
+    "mtime": 1787433505.1629064,
+    "seen": 1793897172.408904,
+    "ast_hash": "5e6c839be885ca5cc96fcd6f39208039",
+    "semantic_hash": ""
+  },
+  "models/info_V4/dataset_V4.md": {
+    "mtime": 1787433505.1629064,
+    "seen": 1793897172.4089057,
+    "ast_hash": "ccf2a01b2e981f372b24a913c49aa429",
+    "semantic_hash": ""
+  },
+  "models/info_V4/knowledge_V4.md": {
+    "mtime": 1787433505.1639156,
+    "seen": 1793897172.4089067,
+    "ast_hash": "dfece56a32032d5d504ae2f90ad14705",
+    "semantic_hash": ""
+  },
+  "requirements.txt": {
+    "mtime": 1787433505.1639156,
+    "seen": 1793897172.4089081,
+    "ast_hash": "1698d31fe209f25c2261643fd9969f6e",
+    "semantic_hash": ""
+  },
+  "research/01_model_analysis/architecture_analysis/architectural_evolution_v2_to_v3.md": {
+    "mtime": 1787433505.165331,
+    "seen": 1793897172.4089093,
+    "ast_hash": "289400597f52729ef823cb4eee31429a",
+    "semantic_hash": ""
+  },
+  "research/01_model_analysis/architecture_analysis/omnet_v2_architecture.md": {
+    "mtime": 1787433505.165331,
+    "seen": 1793897172.4089105,
+    "ast_hash": "e013c01a03ef49c525e3eff8558fa57a",
+    "semantic_hash": ""
+  },
+  "research/01_model_analysis/architecture_analysis/omnet_v3_architecture.md": {
+    "mtime": 1787433505.165331,
+    "seen": 1793897172.408912,
+    "ast_hash": "2bc0a3dff52703cb4dd0510ba7ee12c4",
+    "semantic_hash": ""
+  },
+  "research/01_model_analysis/model_comparison/architecture_comparison_table.md": {
+    "mtime": 1787433505.166456,
+    "seen": 1793897172.4089131,
+    "ast_hash": "2bc0a3dff52703cb4dd0510ba7ee12c4",
+    "semantic_hash": ""
+  },
+  "research/01_model_analysis/model_inventory.md": {
+    "mtime": 1787433505.166456,
+    "seen": 1793897172.4089143,
+    "ast_hash": "12d771c019682d2a334c0c9ed87983f9",
+    "semantic_hash": ""
+  },
+  "research/01_model_analysis/model_summaries/omnet_v2_summary.md": {
+    "mtime": 1787433505.1674674,
+    "seen": 1793897172.408916,
+    "ast_hash": "0d3a0789b8146e81d44bc7c299f01c74",
+    "semantic_hash": ""
+  },
+  "research/01_model_analysis/model_summaries/omnet_v3_summary.md": {
+    "mtime": 1787433505.1674674,
+    "seen": 1793897172.4089174,
+    "ast_hash": "92121eb028cd3961a906d28d80be5542",
+    "semantic_hash": ""
+  },
+  "research/02_dataset_analysis/augmentation/data_augmentation_analysis.md": {
+    "mtime": 1787433505.1674674,
+    "seen": 1793897172.4089189,
+    "ast_hash": "316c15d48d630855d25f2565da84c1cb",
+    "semantic_hash": ""
+  },
+  "research/02_dataset_analysis/dataset_statistics/class_and_subtype_breakdown.md": {
+    "mtime": 1787433505.1684673,
+    "seen": 1793897172.408921,
+    "ast_hash": "978ed63425c8954c3c2f806b86c5e7f0",
+    "semantic_hash": ""
+  },
+  "research/02_dataset_analysis/dataset_summary/breakhis_200x_vs_multiscale.md": {
+    "mtime": 1787433505.1698484,
+    "seen": 1793897172.4089224,
+    "ast_hash": "196f5c3f45c9d3637861b0a7e095e7ff",
+    "semantic_hash": ""
+  },
+  "research/02_dataset_analysis/dataset_summary/breakhis_overview.md": {
+    "mtime": 1787433505.1698484,
+    "seen": 1793897172.4089236,
+    "ast_hash": "196f5c3f45c9d3637861b0a7e095e7ff",
+    "semantic_hash": ""
+  },
+  "research/03_training_analysis/convergence/convergence_analysis.md": {
+    "mtime": 1787433505.1712937,
+    "seen": 1793897172.4089248,
+    "ast_hash": "f890165d0c4e50dcaacd2fda72db34ff",
+    "semantic_hash": ""
+  },
+  "research/03_training_analysis/stability/training_stability_and_regularization.md": {
+    "mtime": 1787433505.1712937,
+    "seen": 1793897172.4089262,
+    "ast_hash": "f890165d0c4e50dcaacd2fda72db34ff",
+    "semantic_hash": ""
+  },
+  "research/03_training_analysis/training_history/training_history_analysis.md": {
+    "mtime": 1787433505.1712937,
+    "seen": 1793897172.4089274,
+    "ast_hash": "f890165d0c4e50dcaacd2fda72db34ff",
+    "semantic_hash": ""
+  },
+  "research/04_performance_results/cross_validation/cross_validation_detailed_analysis.md": {
+    "mtime": 1787433505.172786,
+    "seen": 1793897172.4089289,
+    "ast_hash": "ace26fa2b132ebf67d5e00c5822a2c4c",
+    "semantic_hash": ""
+  },
+  "research/04_performance_results/metrics/metrics_dictionary.md": {
+    "mtime": 1787433505.1754837,
+    "seen": 1793897172.40893,
+    "ast_hash": "56f9add9ce3af8099ebc577fc5948d0d",
+    "semantic_hash": ""
+  },
+  "research/04_performance_results/model_comparison/model_performance_comparison.md": {
+    "mtime": 1787433505.1787484,
+    "seen": 1793897172.4089315,
+    "ast_hash": "1ea27130a029285c07d9ededc81fa144",
+    "semantic_hash": ""
+  },
+  "research/06_tables/comparison/v2_vs_v3_comparison_table.md": {
+    "mtime": 1787433505.2252047,
+    "seen": 1793897172.408933,
+    "ast_hash": "1ea27130a029285c07d9ededc81fa144",
+    "semantic_hash": ""
+  },
+  "research/06_tables/cross_validation/cv_summary_table.md": {
+    "mtime": 1787433505.2252047,
+    "seen": 1793897172.4089339,
+    "ast_hash": "ace26fa2b132ebf67d5e00c5822a2c4c",
+    "semantic_hash": ""
+  },
+  "research/06_tables/main_results/main_results_table.md": {
+    "mtime": 1787433505.226223,
+    "seen": 1793897172.408935,
+    "ast_hash": "1ea27130a029285c07d9ededc81fa144",
+    "semantic_hash": ""
+  },
+  "research/06_tables/supplementary/per_fold_metrics_table.md": {
+    "mtime": 1787433505.226223,
+    "seen": 1793897172.408937,
+    "ast_hash": "07a47025891301dc879572b09e432319",
+    "semantic_hash": ""
+  },
+  "research/07_paper_content/captions/figure_captions.md": {
+    "mtime": 1787433505.2272234,
+    "seen": 1793897172.4089384,
+    "ast_hash": "450a2b4d864d86545f4587ce5749d7c7",
+    "semantic_hash": ""
+  },
+  "research/07_paper_content/conference_showcase/conference_showcase.md": {
+    "mtime": 1787433505.2272234,
+    "seen": 1793897172.4089398,
+    "ast_hash": "ea303903c84daa89c758108478035a39",
+    "semantic_hash": ""
+  },
+  "research/07_paper_content/key_findings/key_findings.md": {
+    "mtime": 1787433505.2282255,
+    "seen": 1793897172.408941,
+    "ast_hash": "eba2bb776ffb3e0fdbe0a8f17817b323",
+    "semantic_hash": ""
+  },
+  "research/07_paper_content/results_section/results_and_discussion.md": {
+    "mtime": 1787433505.2282255,
+    "seen": 1793897172.4089422,
+    "ast_hash": "1d37a94f16099b53c545dc3c8803ae6c",
+    "semantic_hash": ""
+  },
+  "research/08_final_summary/executive_summary/executive_summary.md": {
+    "mtime": 1787433505.2292256,
+    "seen": 1793897172.4089437,
+    "ast_hash": "5e8845ded289a6970adc7e74e41a5a7d",
+    "semantic_hash": ""
+  },
+  "research/08_final_summary/limitations/limitations.md": {
+    "mtime": 1787433505.2292256,
+    "seen": 1793897172.408945,
+    "ast_hash": "23bdc585d7b0197affb89e5b1b606a2a",
+    "semantic_hash": ""
+  },
+  "research/08_final_summary/presentation_order/presentation_order.md": {
+    "mtime": 1787433505.2302237,
+    "seen": 1793897172.4089468,
+    "ast_hash": "066bddd6bf0a94cc87d185a602388654",
+    "semantic_hash": ""
+  },
+  "research/08_final_summary/recommended_figures/recommended_figures.md": {
+    "mtime": 1787433505.2312248,
+    "seen": 1793897172.408948,
+    "ast_hash": "066bddd6bf0a94cc87d185a602388654",
+    "semantic_hash": ""
+  },
+  "research/final_output_manifest.md": {
+    "mtime": 1787433505.2312248,
+    "seen": 1793897172.4089491,
+    "ast_hash": "bda6e26e5f59756998948afdc02b1c80",
+    "semantic_hash": ""
+  },
+  "research/traceability_matrix.md": {
+    "mtime": 1787433505.232224,
+    "seen": 1793897172.4089506,
+    "ast_hash": "a088c726e54eefdbf6ab55ad1c5569e5",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_out/fusion.txt": {
+    "mtime": 1787433505.247706,
+    "seen": 1793897172.4089518,
+    "ast_hash": "1652b5a491bbca4471c01dfdcd9e13c3",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_out/result.txt": {
+    "mtime": 1787433505.2489662,
+    "seen": 1793897172.4089534,
+    "ast_hash": "d103a41041d28b6c4b84b1cb101ab544",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_out/summary.txt": {
+    "mtime": 1787433505.2503495,
+    "seen": 1793897172.4089546,
+    "ast_hash": "81eafb35267646e009e11180d728f7fb",
+    "semantic_hash": ""
+  },
+  "models/info_V3_local/knowledge_V3.md": {
+    "mtime": 1787433505.1616244,
+    "seen": 1793897172.4089558,
+    "ast_hash": "4af236695be13b093cd64a867a8bf8a1",
+    "semantic_hash": ""
+  },
+  "research/05_figures/confusion_matrix/v2_confusion_matrix.png": {
+    "mtime": 1787433505.180246,
+    "seen": 1793897172.4089572,
+    "ast_hash": "9dfff37d3b8874bd73999a663d3541f1",
+    "semantic_hash": ""
+  },
+  "research/05_figures/confusion_matrix/v3_binary_confusion_matrix.png": {
+    "mtime": 1787433505.180246,
+    "seen": 1793897172.4089587,
+    "ast_hash": "3cb6662941d09d1f4b5dc84c9da29b11",
+    "semantic_hash": ""
+  },
+  "research/05_figures/confusion_matrix/v3_local_binary_confusion_matrix.png": {
+    "mtime": 1787433505.1813369,
+    "seen": 1793897172.4089603,
+    "ast_hash": "9bedef24a915febd5613566549cbd4b4",
+    "semantic_hash": ""
+  },
+  "research/05_figures/confusion_matrix/v3_local_subtype_confusion_matrix.png": {
+    "mtime": 1787433505.1833417,
+    "seen": 1793897172.4089615,
+    "ast_hash": "32959d9d68add9f1800e39a378e30b0a",
+    "semantic_hash": ""
+  },
+  "research/05_figures/confusion_matrix/v3_subtype_confusion_matrix.png": {
+    "mtime": 1787433505.1848464,
+    "seen": 1793897172.4089627,
+    "ast_hash": "67e3d4f448f47acf047ec8ec4a36c785",
+    "semantic_hash": ""
+  },
+  "research/05_figures/dataset/v2_augmentation_examples.png": {
+    "mtime": 1787433505.1969016,
+    "seen": 1793897172.4089644,
+    "ast_hash": "6c7384cfacfa2048ae5ff65520de670f",
+    "semantic_hash": ""
+  },
+  "research/05_figures/dataset/v2_dataset_composition.png": {
+    "mtime": 1787433505.198943,
+    "seen": 1793897172.4089656,
+    "ast_hash": "a60546bce41e01bcf18b47ff19bfc2fe",
+    "semantic_hash": ""
+  },
+  "research/05_figures/dataset/v2_sample_images.png": {
+    "mtime": 1787433505.2085161,
+    "seen": 1793897172.408967,
+    "ast_hash": "7617b7200470d9c8521e1562fdd4eb12",
+    "semantic_hash": ""
+  },
+  "research/05_figures/embeddings/v2_tsne_embeddings.png": {
+    "mtime": 1787433505.2095401,
+    "seen": 1793897172.4089687,
+    "ast_hash": "d3a6d05f2ce44afae97c867bca782d05",
+    "semantic_hash": ""
+  },
+  "research/05_figures/embeddings/v3_local_tsne_embeddings.png": {
+    "mtime": 1787433505.2115574,
+    "seen": 1793897172.4089699,
+    "ast_hash": "bdff0a3b504f56a4e7ce104d463d758a",
+    "semantic_hash": ""
+  },
+  "research/05_figures/embeddings/v3_tsne_embeddings.png": {
+    "mtime": 1787433505.2125587,
+    "seen": 1793897172.4089715,
+    "ast_hash": "5116af75c9269a78b254f19551509d15",
+    "semantic_hash": ""
+  },
+  "research/05_figures/error_analysis/v2_error_analysis.png": {
+    "mtime": 1787433505.2136238,
+    "seen": 1793897172.4089727,
+    "ast_hash": "66c80ae6f6dacf2752edf5492bf236fc",
+    "semantic_hash": ""
+  },
+  "research/05_figures/performance_comparison/v3_adaptive_fusion_gate_alpha.png": {
+    "mtime": 1787433505.2136238,
+    "seen": 1793897172.4089742,
+    "ast_hash": "a35cf3b88514e50f12831f49605e2df3",
+    "semantic_hash": ""
+  },
+  "research/05_figures/performance_comparison/v3_local_fusion_gate_analysis.png": {
+    "mtime": 1787433505.2136238,
+    "seen": 1793897172.4089754,
+    "ast_hash": "c0d18b52229ebe0ab32a4432c87f3f20",
+    "semantic_hash": ""
+  },
+  "research/05_figures/roc_pr/v2_precision_recall_curves.png": {
+    "mtime": 1787433505.2163906,
+    "seen": 1793897172.4089766,
+    "ast_hash": "cbedd723b3883bd742ce490f09db988c",
+    "semantic_hash": ""
+  },
+  "research/05_figures/roc_pr/v2_roc_curves.png": {
+    "mtime": 1787433505.2173896,
+    "seen": 1793897172.408978,
+    "ast_hash": "40abcc0a82f6eed5215a1ffa5262d48c",
+    "semantic_hash": ""
+  },
+  "research/05_figures/roc_pr/v3_binary_roc_curve.png": {
+    "mtime": 1787433505.2184093,
+    "seen": 1793897172.408981,
+    "ast_hash": "ba08049db9386c0d82e8a7fcbbf5beda",
+    "semantic_hash": ""
+  },
+  "research/05_figures/roc_pr/v3_local_roc_curves.png": {
+    "mtime": 1787433505.2194095,
+    "seen": 1793897172.4089823,
+    "ast_hash": "9d8f7aa6b71151f752dc69105a521a2a",
+    "semantic_hash": ""
+  },
+  "research/05_figures/roc_pr/v3_subtype_ovr_roc_curves.png": {
+    "mtime": 1787433505.2206738,
+    "seen": 1793897172.4089835,
+    "ast_hash": "ba08049db9386c0d82e8a7fcbbf5beda",
+    "semantic_hash": ""
+  },
+  "research/05_figures/training_curves/v2_cv_results_boxplot.png": {
+    "mtime": 1787433505.2227004,
+    "seen": 1793897172.408985,
+    "ast_hash": "085b5f99c77b68c9061be7b1287fcbce",
+    "semantic_hash": ""
+  },
+  "research/05_figures/training_curves/v2_training_curves.png": {
+    "mtime": 1787433505.223697,
+    "seen": 1793897172.408986,
+    "ast_hash": "37fdfb5a0be84377fd4efc1a580c965f",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_local_out/confusion_matrix_8class.png": {
+    "mtime": 1787433505.234226,
+    "seen": 1793897172.4089873,
+    "ast_hash": "32959d9d68add9f1800e39a378e30b0a",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_local_out/confusion_matrix_binary.png": {
+    "mtime": 1787433505.2352264,
+    "seen": 1793897172.4089887,
+    "ast_hash": "9bedef24a915febd5613566549cbd4b4",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_local_out/fusion_gate_analysis.png": {
+    "mtime": 1787433505.239247,
+    "seen": 1793897172.4089901,
+    "ast_hash": "c0d18b52229ebe0ab32a4432c87f3f20",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_local_out/roc_curves.png": {
+    "mtime": 1787433505.2422411,
+    "seen": 1793897172.4089916,
+    "ast_hash": "9d8f7aa6b71151f752dc69105a521a2a",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_local_out/tsne_embeddings.png": {
+    "mtime": 1787433505.2442462,
+    "seen": 1793897172.4089928,
+    "ast_hash": "bdff0a3b504f56a4e7ce104d463d758a",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_out/Adaptive Fusion Gate Alpha across Magnification Levels.png": {
+    "mtime": 1787433505.2452428,
+    "seen": 1793897172.408994,
+    "ast_hash": "a35cf3b88514e50f12831f49605e2df3",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_out/Binary ROC Curve (Aggregated Folds).png": {
+    "mtime": 1787433505.2452428,
+    "seen": 1793897172.4089954,
+    "ast_hash": "ba08049db9386c0d82e8a7fcbbf5beda",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_out/Subtype OvR ROC Curves.png": {
+    "mtime": 1787433505.247706,
+    "seen": 1793897172.4089966,
+    "ast_hash": "ba08049db9386c0d82e8a7fcbbf5beda",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_out/main_conff.png": {
+    "mtime": 1787433505.2489662,
+    "seen": 1793897172.4089978,
+    "ast_hash": "3cb6662941d09d1f4b5dc84c9da29b11",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_out/sub_conff.png": {
+    "mtime": 1787433505.2503495,
+    "seen": 1793897172.4089992,
+    "ast_hash": "67e3d4f448f47acf047ec8ec4a36c785",
+    "semantic_hash": ""
+  },
+  "result_OMNet/V3_out/t-SNE of OMNet-V3 Fused Embeddings by Subtype.png": {
+    "mtime": 1787433505.2514474,
+    "seen": 1793897172.4090004,
+    "ast_hash": "5116af75c9269a78b254f19551509d15",
+    "semantic_hash": ""
+  },
+  "result_OMNet/v2_out/augmentation_examples.png": {
+    "mtime": 1787433505.26485,
+    "seen": 1793897172.4090018,
+    "ast_hash": "6c7384cfacfa2048ae5ff65520de670f",
+    "semantic_hash": ""
+  },
+  "result_OMNet/v2_out/confusion_matrix.png": {
+    "mtime": 1787433505.266864,
+    "seen": 1793897172.409003,
+    "ast_hash": "9dfff37d3b8874bd73999a663d3541f1",
+    "semantic_hash": ""
+  },
+  "result_OMNet/v2_out/cv_results_boxplot.png": {
+    "mtime": 1787433505.2678666,
+    "seen": 1793897172.4090042,
+    "ast_hash": "085b5f99c77b68c9061be7b1287fcbce",
+    "semantic_hash": ""
+  },
+  "result_OMNet/v2_out/dataset_composition.png": {
+    "mtime": 1787433505.2693598,
+    "seen": 1793897172.4090059,
+    "ast_hash": "a60546bce41e01bcf18b47ff19bfc2fe",
+    "semantic_hash": ""
+  },
+  "result_OMNet/v2_out/error_analysis.png": {
+    "mtime": 1787433505.270368,
+    "seen": 1793897172.409007,
+    "ast_hash": "66c80ae6f6dacf2752edf5492bf236fc",
+    "semantic_hash": ""
+  },
+  "result_OMNet/v2_out/precision_recall.png": {
+    "mtime": 1787433505.2717478,
+    "seen": 1793897172.4090085,
+    "ast_hash": "cbedd723b3883bd742ce490f09db988c",
+    "semantic_hash": ""
+  },
+  "result_OMNet/v2_out/roc_curve.png": {
+    "mtime": 1787433505.2730367,
+    "seen": 1793897172.4090097,
+    "ast_hash": "40abcc0a82f6eed5215a1ffa5262d48c",
+    "semantic_hash": ""
+  },
+  "result_OMNet/v2_out/sample_images.png": {
+    "mtime": 1787433505.2881253,
+    "seen": 1793897172.409011,
+    "ast_hash": "7617b7200470d9c8521e1562fdd4eb12",
+    "semantic_hash": ""
+  },
+  "result_OMNet/v2_out/training_curve.png": {
+    "mtime": 1787433505.2951586,
+    "seen": 1793897172.4090123,
+    "ast_hash": "37fdfb5a0be84377fd4efc1a580c965f",
+    "semantic_hash": ""
+  },
+  "result_OMNet/v2_out/tsne_embeddings.png": {
+    "mtime": 1787433505.2976322,
+    "seen": 1793897172.4090137,
+    "ast_hash": "d3a6d05f2ce44afae97c867bca782d05",
+    "semantic_hash": ""
+  }
+}
