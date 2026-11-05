@@ -1,1 +1,18 @@
 .claude/
+
+# Keep final report deliverables; exclude local generation and review material.
+/report_tools/
+/OMNet_V3_Project_Report.html
+/REPORT_REVISION_PLAN.md
+/REPORT_REVISION_NOTES.md
+/audit.md
+/pitch.md
+
+# Only figures needed by the report belong in Git.
+/report_assets/*
+!/report_assets/architecture.png
+!/report_assets/dataset_support.png
+!/report_assets/gate_summary.png
+!/report_assets/local_binary_matrix.png
+!/report_assets/local_subtype_matrix.png
+!/report_assets/local_training.png
