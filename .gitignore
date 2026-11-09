@@ -16,3 +16,5 @@
 !/report_assets/local_binary_matrix.png
 !/report_assets/local_subtype_matrix.png
 !/report_assets/local_training.png
+/report_revision/*
+/session_performance/*
