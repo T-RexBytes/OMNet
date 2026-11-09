@@ -1,6 +1,6 @@
 # A Magnification-Aware Dual-Branch Network for Breast Cancer Histopathology Classification
 
-## OMNet-V3 Project Report
+## OMNet Project Report
 
 Department of Information Technology  
 Guru Nanak Institute of Technology, Kolkata, India  
@@ -9,7 +9,7 @@ Revised 6 November 2026
 
 ## Abstract
 
-OMNet-V3 studies the use of magnification metadata in a network for breast histopathology image classification. Its two image branches are EfficientNet-B0 and ViT-Tiny/16. Their outputs are projected into a common 256-dimensional space and combined by a learned scalar gate that receives both image features and a 64-dimensional magnification embedding. A residual refinement block supplies a shared representation to a binary classification head and an eight-class subtype head. The local implementation trains these heads with weighted cross-entropy and a directional consistency penalty between their probability distributions.
+OMNet studies the use of magnification metadata in a network for breast histopathology image classification. Its two image branches are EfficientNet-B0 and ViT-Tiny/16. Their outputs are projected into a common 256-dimensional space and combined by a learned scalar gate that receives both image features and a 64-dimensional magnification embedding. A residual refinement block supplies a shared representation to a binary classification head and an eight-class subtype head. The local implementation trains these heads with weighted cross-entropy and a directional consistency penalty between their probability distributions.
 
 The project uses the four magnifications of BreaKHis: 40X, 100X, 200X and 400X. Recounting the saved local metadata gives 7,909 unique image filenames and 82 subtype-prefixed case groups. The evaluation code uses five-fold stratified grouped splitting, followed by a grouped validation holdout inside each training portion. This is intended to measure performance on unseen patients. However, the grouping convention needs further verification: case identifier `14-13412` occurs under both ductal and lobular carcinoma and is treated as two groups because the subtype is included in the identifier.
 
@@ -52,7 +52,7 @@ Each result is identified by its experimental series and calculation method. The
 
 Histopathology images contain evidence at several spatial scales. A low magnification field shows arrangements of tissue structures across a relatively broad area. A higher magnification field makes smaller cellular structures visible within a narrower area. Resizing both images to the same pixel dimensions does not remove this physical difference. A nucleus spanning a particular number of pixels after resizing may represent a different observation scale in the two images. Magnification therefore provides information about how image patterns should be interpreted.
 
-The project investigates whether this information can be used within feature fusion. Instead of selecting one backbone for every image, OMNet-V3 computes features through a convolutional network and a transformer. It learns how to mix them using the image representations and the known acquisition magnification. This is a testable design choice: the magnification embedding can be removed, held constant or shuffled, and the resulting performance can be compared under the same evaluation protocol. Those controlled comparisons have not been supplied for the completed V3 experiment.
+The project investigates whether this information can be used within feature fusion. Instead of selecting one backbone for every image, OMNet computes features through a convolutional network and a transformer. It learns how to mix them using the image representations and the known acquisition magnification. This is a testable design choice: the magnification embedding can be removed, held constant or shuffled, and the resulting performance can be compared under the same evaluation protocol. Those controlled comparisons have not been supplied for the completed V3 experiment.
 
 There is an important boundary to the term multi-scale in this project. The network receives one image and one magnification index for each prediction. It does not jointly receive registered 40X, 100X, 200X and 400X views of the same tissue region. Its training population contains images from four scales, and its gate is conditioned on scale metadata. This differs from a system that explicitly matches tissue locations across magnifications and fuses their observations. The distinction affects what can be claimed about contextual information available at inference.
 
@@ -70,7 +70,7 @@ The architecture raises four questions. Can the shared representation support a 
 
 The available evidence answers these questions to different degrees. Aggregate results describe moderate binary discrimination and weak subtype macro-F1. The gate analysis describes a monotonic change in mean weight. A metadata recount establishes severe differences in class support measured in case groups. Matched ablations needed to attribute an improvement to the gate have not been established, and observational support differences cannot isolate the cause of every class error.
 
-These distinctions determine the strength of the conclusion. OMNet-V3 implements a coherent way to condition dual-branch fusion on magnification. Its measured records indicate limitations that deserve further study. They do not demonstrate that the design is superior to every alternative or that its gate reproduces the reasoning of a pathologist.
+These distinctions determine the strength of the conclusion. OMNet implements a coherent way to condition dual-branch fusion on magnification. Its measured records indicate limitations that deserve further study. They do not demonstrate that the design is superior to every alternative or that its gate reproduces the reasoning of a pathologist.
 
 ### 1.4 Scope and organization of the report
 
@@ -132,7 +132,7 @@ V2 comparisons provide development history, while later baseline designs provide
 
 ### 2.7 Related hybrid studies
 
-Wang and colleagues' MFF-ClassificationNet is a CNN-transformer hybrid explicitly organized around multi-feature fusion [[6]](#ref-6). It is relevant to the decision to combine architectural families, rather than to a claim that OMNet-V3 first introduced hybrid histopathology classification. Its existence means that a novelty argument must identify the specific conditioning and supervision design, then demonstrate its contribution experimentally.
+Wang and colleagues' MFF-ClassificationNet is a CNN-transformer hybrid explicitly organized around multi-feature fusion [[6]](#ref-6). It is relevant to the decision to combine architectural families, rather than to a claim that OMNet first introduced hybrid histopathology classification. Its existence means that a novelty argument must identify the specific conditioning and supervision design, then demonstrate its contribution experimentally.
 
 Fiaz and colleagues' DFViT combines pretrained convolutional features with a vision transformer and an MLP classifier [[7]](#ref-7). It provides another precedent for local and broader-context feature integration. Its documented CNN-transformer fusion is relevant to the choice of two feature-extraction families; no unverified RGB-versus-stain-normalized stream structure is assumed.
 
@@ -826,7 +826,7 @@ The gate summary supplies a specific observation about internal coefficients. Th
 
 ### 12.1 Conclusions
 
-OMNet-V3 combines EfficientNet-B0 and ViT-Tiny/16 representations through a magnification-conditioned gate. In the local implementation, a residual block further conditions the fused feature on scale, and two linear heads predict the coarse group and subtype. Weighted cross-entropy and a directional KL penalty connect the two tasks.
+OMNet combines EfficientNet-B0 and ViT-Tiny/16 representations through a magnification-conditioned gate. In the local implementation, a residual block further conditions the fused feature on scale, and two linear heads predict the coarse group and subtype. Weighted cross-entropy and a directional KL penalty connect the two tasks.
 
 The primary reported series gives 84.05% binary accuracy and 24.42% subtype macro-F1. The cloud and local series give different values and are described separately. The reconstructed local matrix gives 83.82% pooled binary accuracy and 27.58% pooled subtype macro-F1. These pooled scores are calculated from recorded counts and do not replace fold summaries.
 
