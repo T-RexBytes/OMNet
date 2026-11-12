@@ -1,6 +1,6 @@
 # Breast Cancer Research Project
 
-> **This project focuses on developing a reproducible and reliable AI-based breast cancer image classification system. The work includes dataset verification, data preparation, baseline development, proposed model testing, leakage-safe evaluation, ablation studies, explainability, and publication-quality result analysis.**
+**This project focuses on developing a reproducible and reliable AI-based breast cancer image classification system. The work includes dataset verification, data preparation, baseline development, proposed model testing, leakage-safe evaluation, ablation studies, explainability, and publication-quality result analysis.**
 
 ---
 
